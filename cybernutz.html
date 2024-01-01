@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evolution: CyberNutz</title>
     <link rel="icon" type="image/png" href="cyber-render.webp"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap" rel="stylesheet">
 </head>
 <style>
     body {
@@ -42,16 +45,38 @@
         width: 11%;
     }
 
+    .evolution {
+        margin-bottom: 20px;
+    }
+
     .evolution:active {
         opacity: 50%;
     }
+
+    @media only screen and (max-width: 800px) {
+        img {
+            width: 25%;
+            border-radius: 10px;
+        }
+
+        img:hover {
+            width: 30%;
+        }
+  }
+
 </style>
 <body>
     <h1>The Evolution of CyberNutz</h1>
-    <p style="font-size: 20px;">This is the evolution of <a href="https://twitter.com/CyberNutz68">CyberNutz </a>on Twitter.</p>
-    <div class="evolution" onclick="window.location.replace('https://twitter.com/NutzCyber')">
+    <p style="font-size: 20px;">This is the evolution of <a href="https://twitter.com/CyberNutz68">CyberNutz</a> on Twitter.</p>
+    <div class="evolution" onclick="window.location.href = 'https://twitter.com/NutzCyber'">
+    <h1>March 2021</h1>
     <img src="binbo.webp">
-    <p>It all started here. CyberNutz created his first ever Twitter account named @NutzCyber.</p>
+    <p>It all started here, March 2021. CyberNutz created his first ever Twitter account named @NutzCyber. It was based around his interests at the time, Friday Night Funkin' and SM64JS.</p>
     </div>
+    <div class="evolution" onclick="window.location.href = 'https://twitter.com/NutzCyber2'">
+        <h1>August 2021</h1>
+        <img src="nutzcyber2.jpg">
+        <p>Joining 5 months later, @NutzCyber2 was born. This was a random alt account for CyberNutz.</p>
+        </div>
 </body>
 </html>
